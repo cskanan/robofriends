@@ -13,7 +13,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://cskanan.github.io/robofriends/",
+    "homepage": "https://cskanan.github.io/robofriends",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
