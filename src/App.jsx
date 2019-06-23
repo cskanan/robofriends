@@ -16,7 +16,7 @@ class App extends React.Component {
     this.setState({ criteria: event.target.value });
   };
   componentDidMount() {
-    fetch("https://jsonplaceholder.typicode.com/usersx")
+    fetch("https://jsonplaceholder.typicode.com/users")
       .then(response => {
         return response.json();
       })
